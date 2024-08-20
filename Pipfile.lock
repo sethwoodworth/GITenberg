@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0fa0aecfda57abe8d6aeb730c39e03ca7c69908bdf087760b286137c78b74caa"
+            "sha256": "49bbd0c6a01b485b64b567f35d460b1dcdc891b938139c1fd0e8b1755e3d852c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -311,7 +311,7 @@
         },
         "gitberg": {
             "editable": true,
-            "path": "."
+            "file": "."
         },
         "gitdb": {
             "hashes": [
