@@ -1,5 +1,5 @@
 marc_rels = {
-    'aut': 'author',
+    "aut": 'author',
     "adp": "adapter",
     "aft": "author_of_afterword",
     "ann": "annotator",
@@ -11,22 +11,33 @@ marc_rels = {
     "cmp": "composer",
     "cnd": "conductor",
     "com": "compiler",
+    "cre": "creator",
     "ctb": "contributor",
     "dub": "dubious_author",
     "edt": "editor",
-    "egr": "engineer",
+    "egr": "engraver",
+    "frg": "forger",
     "ill": "illustrator",
     "lbt": "librettist",
+    "mrk": "markup_editor",
+    "mus": "musician",
     "oth": "other_contributor",
+    "pat": "patron",
     "pbl": "publisher_contributor",
+    "prf": "proofreader",
     "pht": "photographer",
     "prf": "performer",
+    "prg": "programmer",
+    "pro": "producer",
     "prt": "printer",
     "res": "researcher", 
+    "rev": "reviewer",
+    "sng": "singer",
+    "spk": "speaker",
     "trc": "transcriber",
     "trl": "translator",
     "unk": "unknown_contributor",
-    }
+}
 
 inverse_marc_rels = {v:k for k,v in  marc_rels.items()}
 
